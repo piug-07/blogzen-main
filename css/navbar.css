@@ -352,7 +352,7 @@ body{
 }
 
 .date{
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -361,13 +361,13 @@ body{
     font-weight: 500;
     border-radius: 50%;
     transition: 0.2s;
-    height:20px;
-    width:50px;
+    /* width:30px; */
+    height:30px;
+
 }
 
 .date:hover,
 .date.active{
-    background-color: darkblue;
     color: white;
 }
 

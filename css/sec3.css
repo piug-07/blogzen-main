@@ -142,6 +142,20 @@
 
 }
 
+@media(max-width: 570px){
+    
+    #signup{
+        /* display: none; */
+        font-size: 10px;
+        margin-right: 0px;
+    }
+    #loginButton{
+        /* display: none; */
+        /* margin-top: 5rem; */
+        margin-left: 2rem;
+        font-size: 10px;
+
+
 @media(max-width: 620px) {
     #signup {
         display: none;
@@ -149,6 +163,7 @@
 
     #loginButton {
         display: none;
+
     }
 
     .search {

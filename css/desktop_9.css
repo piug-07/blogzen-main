@@ -441,6 +441,16 @@ nav {
 .icon:hover{
 border-bottom: 2px solid rgb(255, 255, 255);
 }
+
+@media(max-width:570px){
+    #themeImg {
+        margin-right: -26px;
+        padding: 0px;
+    }
+    .footer{
+        margin-top: 14rem;
+}
+    }
 @media (max-width: 768px) {
     .footer {
         flex-direction: column;
@@ -485,7 +495,7 @@ border-bottom: 2px solid rgb(255, 255, 255);
         height: 35px;
     }
 
-    .footer a .mail {
+    .footer a , .mail {
         font-size: 16px;
     }
 
@@ -498,5 +508,6 @@ border-bottom: 2px solid rgb(255, 255, 255);
 
     .icons a {
         margin-bottom: 10px;
+
     }
 }
